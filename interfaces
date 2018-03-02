@@ -12,5 +12,6 @@ iface eth0 inet dhcp
 iface eth1 inet manual
 iface eth2 inet manual
 
+auto br0
 iface br0 inet manual
 bridge-ports eth1 eth2
