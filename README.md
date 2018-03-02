@@ -4,11 +4,7 @@ This VM is intended as a low-level packet-tracing man-in-the-middle box.  Plug i
 
 ### Getting Started
 
-Install [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).  Install `vagrant-reload` plugin:
-
-```
-vagrant plugin install vagrant-reload
-```
+Install [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).
 
 Run the VM:
 
@@ -16,4 +12,4 @@ Run the VM:
 vagrant up
 ```
 
-Answer the 2 prompts to specify which interfaces to bridge (to be packet-traced later).  __Wait for the VM to reboot into a GUI before logging in__.  Login and password are both `vagrant`.
+Answer the 2 prompts to specify which interfaces to bridge (to be packet-traced later).  __Wait for the VM to start GUI before logging in__.  Login and password are both `vagrant`.

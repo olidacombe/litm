@@ -10,3 +10,4 @@ rm /etc/network/interfaces
 ln -s /vagrant/interfaces /etc/network/interfaces
 ifup br0
 
+service lightdm start
