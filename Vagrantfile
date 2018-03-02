@@ -5,8 +5,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "hashicorp/precise64"
 
-  config.vm.network "private_network", ip: "192.168.33.99"
-  config.vm.network "public_network", ip: "192.168.32.99", bridge: "ask"
+  config.vm.network "public_network", bridge: "ask qm", auto_config: false
+  config.vm.network "public_network", bridge: "ask client", auto_config: false
 
   config.vm.provision :shell, path: "bootstrap.sh"
 
