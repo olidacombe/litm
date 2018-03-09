@@ -4,7 +4,11 @@ This VM is intended as a low-level packet-tracing man-in-the-middle box.  Plug i
 
 ### Getting Started
 
-Install [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).
+Install [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).  Install the `vagrant-vbguest` plugin:
+
+```
+vagrant plugin install vagrant-vbguest
+```
 
 Run the VM:
 
